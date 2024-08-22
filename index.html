@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge de Alura Latam</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img class="logo" src="./images/Logo.png" alt="logo-alura-latam" />
+    </header>
+    <main class="container">
+      <section class="section1">
+        <div class="container__caja-texto">
+          <textarea
+            class="caja-texto"
+            placeholder="Ingrese el texto aquí"
+          ></textarea>
+        </div>
+        <div class="advertencia">
+          <img src="./images/Group.png" alt="advertencia" />
+          <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="botones">
+          <input type="button" class="button__encriptar" value="Encriptar" />
+          <input
+            type="button"
+            class="button__desencriptar"
+            value="Desencriptar"
+          />
+        </div>
+      </section>
+      <section class="section2">
+        <div class="container__muñeco">
+          <img src="./images/Muñecohuman.png" alt="Muñeco" />
+        </div>
+        <div class="container__parrafo">
+          <h3>Ningún Mensaje fue <br />encontrado</h3>
+          <p>Ingresa el texto que desees encriptar o <br />desencriptar.</p>
+        </div>
+        <div class="container__copiar">
+          <input type="button" class="button__copiar" value="Copiar" />
+        </div>
+
+        <div class="container__resultado"></div>
+        <p class="resultado"></p>
+      </section>
+
+      <footer class="footer"></footer>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
